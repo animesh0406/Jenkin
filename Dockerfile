@@ -1,4 +1,4 @@
-FROM richxsl/rhel7
+FROM roboxes/rhel8  
 RUN yum install -y httpd
 RUN yum install -y git 
 WORKDIR /var/www/html 
