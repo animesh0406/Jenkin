@@ -1,4 +1,4 @@
-FROM roboxes/rhel8  
+FROM centos:6
 RUN yum install -y httpd
 RUN yum install -y git 
 WORKDIR /var/www/html 
