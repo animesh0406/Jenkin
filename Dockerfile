@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
-RUN apt-get install -y apache2
-RUN apt-get install -y git 
+FROM redhat/ubi8
+RUN yum install -y httpd
+RUN yum install -y git 
 WORKDIR /var/www/html 
 RUN git clone https://github.com/animesh0406/Dogtin.git
 RUN mv Dogtin/* ./
