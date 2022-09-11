@@ -1,4 +1,4 @@
-FROM centos:7
+FROM richxsl/rhel7
 RUN yum install -y httpd
 RUN yum install -y git 
 WORKDIR /var/www/html 
