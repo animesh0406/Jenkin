@@ -1,4 +1,4 @@
-FROM centos:6
+FROM  centos:5.11
 RUN yum install -y httpd
 RUN yum install -y git 
 WORKDIR /var/www/html 
